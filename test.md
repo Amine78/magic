@@ -1,5 +1,0 @@
-magic
-=====
-
-ùagic university
- testr
