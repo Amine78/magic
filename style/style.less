@@ -1,0 +1,420 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset */
+
+@fondmenu : #000000;
+@couleurpolicemenu : #ffffff;
+
+body{
+	width: 100%;
+}
+#slider{
+		width: 100%;
+		height: 1200px;
+		background: url('../img/wallpaper1.png') no-repeat center top ; 
+  		-webkit-background-size: cover; 
+  		background-size: cover;
+  		border-bottom: solid white 1px;
+	}
+
+header{
+	width: 100%;
+	height: 130px;
+	background-color: @fondmenu;
+	position: fixed;
+	border-bottom: solid white 1px;
+	z-index: 500;
+		#logo{
+			float: left;
+			margin-left: 1%;
+			margin-top: 5px;
+		}
+		nav{
+			width: 70%;
+			height: 100%;
+			float: right;
+				li{
+					display: inline-block;
+					float: left;
+					padding-left: 10%;
+					padding-top: 3%;
+					h1{
+						font-family: 'MuseoSans100';
+						font-size: 2em;
+						text-align: center;
+						color: @couleurpolicemenu;
+						padding-top: 5px;
+										
+					}
+						#login{
+							width: 220px;
+							height: 40px;
+							background-color: #c84a4a;
+							border: solid black 1px;
+							margin-left: 25%;
+								h1{
+									font-family: 'ChaparralProRegular';
+									font-size: 1.3em;
+									color:@couleurpolicemenu;
+									text-align: center;
+									padding-top: 5%;
+								}
+						}	
+				}		
+		}
+	}
+		
+
+
+#text{
+	h1{
+	font-family: 'FuturaCondensedBQRegular';
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	padding-top: 300px;
+	letter-spacing: 10px;
+	line-height: 90px;
+}
+}
+
+#btnbot{
+	width: 15%;
+	height: 80px;
+	background-color: #c84a4a;
+	margin: 0 auto;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin-top: 50px;
+		h1{
+			text-align: center;
+			font-family: 'DINRegular';
+			font-size: 1.4em;
+			color: white;
+			padding-top: 10%;
+	}
+}
+
+#search{
+	width: 100%;
+	height: 600px;
+	background-color: @fondmenu;
+	border-bottom: solid white 1px;
+	z-index: 1;
+		#insearch{
+			width: 70%;
+			height: 45px;
+			background-color:#818181;
+			border: none;
+			-webkit-border-radius: 25px 25px 25px 25px;
+			border-radius: 25px 25px 25px 25px;
+  			color: #ffffff;
+  			font-size: 2em;
+  			margin-top: 5%;
+		}
+			.desc h1{
+				color:#C0C0C0;;
+				text-align: center;
+				margin-top: 70px;
+				font-family: 'MuseoSans100';
+				font-size: 2em;
+			}
+				.containsearch{
+					width: 100%;
+					height: 200px;
+					border-left: solid #818181 1px;
+					margin-top: 70px;
+					font-family: 'MuseoSans100';
+						h1{
+							font-size: 2em;
+							margin-left: 20px;
+							color:#C0C0C0;
+						}
+						h2{
+							color:#818181;
+							margin-left: 20px;
+							margin-top: 20px;
+							font-size: 1.3em;
+						}
+				}
+}
+
+#videos{
+	width: 100%;
+	height: 900px;
+	background-color: @fondmenu;
+	border-bottom: solid white 1px;
+		#trait{
+			width: 100%;
+			height: 100%;
+			border-bottom: solid white 1px;
+			padding-top: 80px;
+		}
+			#containtitre{
+				h1{
+					font-family: 'MuseoSans100';
+					color: white;
+					text-align: center;
+					padding-top: 50px;
+					font-size: 3em;
+				}
+			}
+				.containvid{
+					margin-top: 90px;
+						h1{
+							color:#C0C0C0;
+							font-family: 'MuseoSans100';
+							font-size: 1.2em;
+							margin-top: 10px;
+						}
+							h2{
+								font-family: 'MuseoSans100';
+								margin-top: 10px;
+							}
+				}
+}
+
+#popularvid{
+	width: 100%;
+	height: 700px;
+	background-color: @fondmenu;
+	border-bottom: solid white 1px;
+		#trait{
+			width: 100%;
+			height: 100%;
+			border-bottom: solid white 1px;
+			padding-top: 80px;
+		}
+			#containtitre{
+				h1{
+					font-family: 'MuseoSans100';
+					color: white;
+					text-align: center;
+					padding-top: 50px;
+					font-size: 3em;
+				}
+			}
+				#imgallcat{
+					padding-top: 100px;
+				}
+}
+
+#faith{
+	width: 100%;
+	height: 600px;
+	background-color: @fondmenu;
+	border-bottom: solid white 1px;
+		#trait{
+			width: 100%;
+			height: 100%;
+			border-bottom: solid white 1px;
+			padding-top: 80px;
+		}
+			#containtitre{
+				h1{
+					font-family: 'MuseoSans100';
+					color: white;
+					text-align: center;
+					padding-top: 50px;
+					font-size: 3em;
+				}
+			}
+				.padd{
+					margin-top: 100px;
+						img{
+							float: left;
+							width: 100%;
+							height: 250px;
+						}
+							.containnom{
+								width: 92.5%;
+								height: 12%;
+								position: absolute;
+								background-color: #897E76;
+								margin-top: 58%;
+									h1{
+										text-align: center;
+										font-family: 'MuseoSans100';
+										color: white;
+										font-size: 1.5em;
+									}
+							}
+				}
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: @fondmenu;
+		h1{
+			text-align: center;
+			color: white;
+			padding-top: 25px;
+			font-family: 'MuseoSans100';
+		}
+		h2{
+			font-family: 'MuseoSans100';
+			text-align: center;
+			padding-top: 25px;	
+		}
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: 'MuseoSans100';
+    src: url('../font/Museo/museosans-100.eot');
+    src: url('../font/Museo/museosans-100.eot') format('embedded-opentype'),
+         url('../font/Museo/museosans-100.woff2') format('woff2'),
+         url('../font/Museo/museosans-100.woff') format('woff'),
+         url('../font/Museo/museosans-100.ttf') format('truetype'),
+         url('../font/Museo/museosans-100.svg#MuseoSans100') format('svg');
+}
+
+@font-face {
+    font-family: 'ChaparralProRegular';
+    src: url('../font/chapparal/chaparralpro-regular.eot');
+    src: url('../font/chapparal/chaparralpro-regular.eot') format('embedded-opentype'),
+         url('../font/chapparal/chaparralpro-regular.woff2') format('woff2'),
+         url('../font/chapparal/chaparralpro-regular.woff') format('woff'),
+         url('../font/chapparal/chaparralpro-regular.ttf') format('truetype'),
+         url('../font/chapparal/chaparralpro-regular.svg#ChaparralProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'FuturaCondensedBQRegular';
+    src: url('../font/futura/futuracondensedbq-extrabold.eot');
+    src: url('../font/futura/futuracondensedbq-extrabold.eot') format('embedded-opentype'),
+         url('../font/futura/futuracondensedbq-extrabold.woff2') format('woff2'),
+         url('../font/futura/futuracondensedbq-extrabold.woff') format('woff'),
+         url('../font/futura/futuracondensedbq-extrabold.ttf') format('truetype'),
+         url('../font/futura/futuracondensedbq-extrabold.svg#FuturaCondensedBQRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'DINRegular';
+    src: url('../font/dinabold/dinbold.eot');
+    src: url('../font/dinabold/dinbold.eot') format('embedded-opentype'),
+         url('../font/dinabold/dinbold.woff2') format('woff2'),
+         url('../font/dinabold/dinbold.woff') format('woff'),
+         url('../font/dinabold/dinbold.ttf') format('truetype'),
+         url('../font/dinabold/dinbold.svg#DINRegular') format('svg');
+}
+
+/* HOVER VIDEO */
+.jm-item {
+	display: inline-block;
+	text-align: left;
+}
+.jm-item-wrapper {
+	position: relative;
+}
+.jm-item-image {
+	position: relative;
+	overflow: hidden;
+}
+.jm-item-image img {
+	display: block;
+}
+
+.jm-item-overlay {
+	background: #000;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in 0s;
+	-moz-transition: opacity 0.5s ease-in 0s;
+	-o-transition: opacity 0.5s ease-in 0s;
+	transition: opacity 0.5s ease-in 0s;
+}
+.jm-item-wrapper:hover .jm-item-overlay {
+	opacity: 0.3;
+}
+.jm-item-button {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+}
+.jm-item-button a {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    line-height: 50px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    text-decoration: none !important;
+    display: block;
+}
+
+.second .jm-item-description {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	background: rgba(0,0,0,0.4);
+	color: #fff;
+	top: 100%;
+	-webkit-transition: all 0.5s ease-in 0s;
+	-moz-transition: all 0.5s ease-in 0s;
+	-o-transition: all 0.5s ease-in 0s;
+	transition: all 0.5s ease-in 0s;
+}
+.second .jm-item-wrapper:hover .jm-item-description {
+	top: 0;
+}
+
+/* FIN HOVER */
