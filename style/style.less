@@ -53,7 +53,7 @@ body{
 }
 #slider{
 		width: 100%;
-		height: 1200px;
+		height: 1000px;
 		background: url('../img/wallpaper1.png') no-repeat center top ; 
   		-webkit-background-size: cover; 
   		background-size: cover;
@@ -62,15 +62,15 @@ body{
 
 header{
 	width: 100%;
-	height: 130px;
+	height: 100px;
 	background-color: @fondmenu;
-	position: fixed;
 	border-bottom: solid white 1px;
 	z-index: 500;
 		#logo{
 			float: left;
-			margin-left: 1%;
-			margin-top: 5px;
+			margin-left: 2%;
+			margin-top: 1%;
+			width: 200px;
 		}
 		nav{
 			width: 70%;
@@ -79,11 +79,11 @@ header{
 				li{
 					display: inline-block;
 					float: left;
-					padding-left: 10%;
+					padding-left: 5%;
 					padding-top: 3%;
 					h1{
 						font-family: 'MuseoSans100';
-						font-size: 2em;
+						font-size: 1.5em;
 						text-align: center;
 						color: @couleurpolicemenu;
 						padding-top: 5px;
@@ -100,7 +100,7 @@ header{
 									font-size: 1.3em;
 									color:@couleurpolicemenu;
 									text-align: center;
-									padding-top: 5%;
+									padding-top: 4%;
 								}
 						}	
 				}		
@@ -122,8 +122,8 @@ header{
 }
 
 #btnbot{
-	width: 15%;
-	height: 80px;
+	width: 20%;
+	height: 60px;
 	background-color: #c84a4a;
 	margin: 0 auto;
 	-webkit-border-radius: 15px;
@@ -133,35 +133,37 @@ header{
 		h1{
 			text-align: center;
 			font-family: 'DINRegular';
-			font-size: 1.4em;
+			font-size: 1.1em;
 			color: white;
-			padding-top: 10%;
+			padding-top: 8%;
 	}
 }
 
 #search{
 	width: 100%;
 	height: 600px;
-	background-color: @fondmenu;
+	background: url('../img/asfalt.png');
 	border-bottom: solid white 1px;
 	z-index: 1;
 		#insearch{
-			width: 70%;
-			height: 45px;
-			background-color:#818181;
+			width: 50%;
+			height: 30px;
+			background-color:#ffffff;
 			border: none;
-			-webkit-border-radius: 25px 25px 25px 25px;
-			border-radius: 25px 25px 25px 25px;
-  			color: #ffffff;
-  			font-size: 2em;
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
   			margin-top: 5%;
+  			color:#c84a4a;
+  			margin-left: 20%;
+  			padding-left: 20px;
+  			margin-right: 5%;
 		}
 			.desc h1{
 				color:#C0C0C0;;
 				text-align: center;
 				margin-top: 70px;
 				font-family: 'MuseoSans100';
-				font-size: 2em;
+				font-size: 1.5em;
 			}
 				.containsearch{
 					width: 100%;
@@ -170,7 +172,7 @@ header{
 					margin-top: 70px;
 					font-family: 'MuseoSans100';
 						h1{
-							font-size: 2em;
+							font-size: 1.2em;
 							margin-left: 20px;
 							color:#C0C0C0;
 						}
@@ -178,7 +180,7 @@ header{
 							color:#818181;
 							margin-left: 20px;
 							margin-top: 20px;
-							font-size: 1.3em;
+							font-size: 1em;
 						}
 				}
 }
@@ -199,8 +201,8 @@ header{
 					font-family: 'MuseoSans100';
 					color: white;
 					text-align: center;
-					padding-top: 50px;
-					font-size: 3em;
+					padding-top: 65px;
+					font-size: 2em;
 				}
 			}
 				.containvid{
@@ -220,6 +222,41 @@ header{
 
 #popularvid{
 	width: 100%;
+	height: 900px;
+	background: url('../img/asfalt.png');
+	border-bottom: solid white 1px;
+		#trait{
+			width: 100%;
+			height: 100%;
+			border-bottom: solid white 1px;
+			padding-top: 80px;
+		}
+			#containtitre{
+				h1{
+					font-family: 'MuseoSans100';
+					color: white;
+					text-align: center;
+					padding-top: 65px;
+					font-size: 2em;
+				}
+			}
+				.containvid{
+					margin-top: 90px;
+						h1{
+							color:#C0C0C0;
+							font-family: 'MuseoSans100';
+							font-size: 1.2em;
+							margin-top: 10px;
+						}
+							h2{
+								font-family: 'MuseoSans100';
+								margin-top: 10px;
+							}
+				}
+}
+
+#othercategories{
+	width: 100%;
 	height: 700px;
 	background-color: @fondmenu;
 	border-bottom: solid white 1px;
@@ -234,13 +271,38 @@ header{
 					font-family: 'MuseoSans100';
 					color: white;
 					text-align: center;
-					padding-top: 50px;
-					font-size: 3em;
+					padding-top: 65px;
+					font-size: 2em;
 				}
 			}
 				#imgallcat{
 					padding-top: 100px;
 				}
+}
+
+#phrases{
+	width: 100%;
+	height: 600px;
+	background: url('../img/asfalt.png');
+	border-bottom: solid white 1px;
+		.textphrases{
+			width: 85%;
+			height: 150px;
+			margin-top: 13%;
+				h1{
+					font-size: 2em;
+					color: white;
+					font-family: 'ChaparralProRegular';
+					letter-spacing: 3px;
+				}
+				p{
+					font-size: 1.2em;
+					line-height: 30px;
+					color:white;
+					padding-top: 20px;
+					font-family: 'ChaparralProRegular';
+				}
+		}
 }
 
 #faith{
@@ -259,8 +321,8 @@ header{
 					font-family: 'MuseoSans100';
 					color: white;
 					text-align: center;
-					padding-top: 50px;
-					font-size: 3em;
+					padding-top: 65px;
+					font-size: 2em;
 				}
 			}
 				.padd{
@@ -272,15 +334,16 @@ header{
 						}
 							.containnom{
 								width: 92.5%;
-								height: 12%;
+								height: 18%;
 								position: absolute;
-								background-color: #897E76;
-								margin-top: 58%;
+								background-color: #c84a4a;
+								margin-top: 53%;
 									h1{
 										text-align: center;
 										font-family: 'MuseoSans100';
 										color: white;
 										font-size: 1.5em;
+										margin-top: 2%;
 									}
 							}
 				}
