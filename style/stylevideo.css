@@ -103,6 +103,8 @@ section {
 }
 body {
   line-height: 1;
+  width: 100%;
+  background-color: black;
 }
 ol,
 ul {
@@ -124,29 +126,31 @@ table {
   border-spacing: 0;
 }
 /* reset */
-body {
-  width: 100%;
+body,
+h1,
+h2,
+h3,
+p {
+  font-family: 'MuseoSans100';
 }
-#slider {
-  width: 100%;
-  height: 1000px;
-  background: url('../img/wallpaper1.png') no-repeat center top;
-  -webkit-background-size: cover;
-  background-size: cover;
-  border-bottom: solid white 1px;
+p {
+  font-size: 1.2em;
+  color: #818181;
 }
 header {
   width: 100%;
-  height: 100px;
+  height: 130px;
   background-color: #000000;
+  position: absolute;
+  top:0px;
+  left: 0px;
   border-bottom: solid white 1px;
   z-index: 500;
 }
 header #logo {
   float: left;
-  margin-left: 2%;
-  margin-top: 15px;
-  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 header nav {
   width: 70%;
@@ -156,11 +160,10 @@ header nav {
 header nav li {
   display: inline-block;
   float: left;
-  padding-left: 50px;
-  padding-top: 30px;
+  padding-left: 8%;
+  padding-top: 3%;
 }
 header nav li h1 {
-  font-family: 'MuseoSans100';
   font-size: 1.5em;
   text-align: center;
   color: #ffffff;
@@ -171,239 +174,302 @@ header nav li #login {
   height: 40px;
   background-color: #c84a4a;
   border: solid black 1px;
-  margin-left: 60px;
-  margin-top: -3px;
+  margin-left: 1%;
 }
 header nav li #login h1 {
   font-family: 'ChaparralProRegular';
   font-size: 1.3em;
   color: #ffffff;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5%;
 }
-#text h1 {
-  font-family: 'FuturaCondensedBQRegular';
+#video {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-bottom: solid white 1px;
+}
+/*
+#video #home2 {
+  border-bottom: solid white 1px;
+}
+#video #home2 #menu2 {
+  width: 100%;
+  height: 10px;
+  padding-top: 120px;
+}
+#video #home2 #menu2 nav {
+  width: 100%;
+  height: 100px;
+  float: left;
+}
+#video #home2 #menu2 nav li {
+  display: inline-block;
+  float: left;
+  padding-left: 20px;
+}
+#video #home2 #menu2 nav li h1 {
+  font-size: 1.3em;
+  text-align: left;
   color: white;
-  font-size: 5em;
-  text-align: center;
-  padding-top: 300px;
-  letter-spacing: 10px;
-  line-height: 90px;
+  padding-top: 40px;
 }
-#btnbot {
-  width: 20%;
-  height: 60px;
+#video #home2 #menu2 nav li h2 {
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-align: left;
+  color: white;
+  padding-top: 40px;
+}
+#video #home2 #search {
+  width: 100%;
+  height: 200px;
+  background-color: #000000;
+  z-index: 1;
+  padding-top: 130px;
+}
+#video #home2 #search #insearch {
+  width: 376px;
+  height: 45px;
+  background-color: #464646;
+  border: none;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  font-size: 1.7em;
+  margin-top: 5%;
+  padding-left: 10px;
+  font-family: 'MuseoSans100';
+}
+#video #home2 #search #btnsearch {
+  width: 71px;
+  height: 45px;
+  background-color: #464646;
+  border: none;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border-radius: 10px 10px 10px 10px;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding-top: 6px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'MuseoSans100';
+}
+*/
+#video #snippet {
+  float: left;
+  margin-left: 1%;
+  margin-bottom: 10px;
+  margin-top: 136px;
+}
+#video .containsnippet {
+  padding-top: 100px;
+  margin-top: 36px;
+}
+#video .containsnippet h1 {
+  font-size: 1.4em;
+  color: white;
+  font-family: 'MuseoSans100';
+}
+#video .containsnippet h2 {
+  color: #818181;
+  padding-top: 5px;
+  font-size: 1.5em;
+  font-family: 'DINRegular';
+}
+#video #btnbot {
+  width: 230px;
+  height: 67px;
   background-color: #c84a4a;
-  margin: 0 auto;
+  padding-right: 10px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 0;
 }
-#btnbot h1 {
+#video #btnbot h1 {
   text-align: center;
   font-family: 'DINRegular';
-  font-size: 17px;
+  font-size: 1.4em;
   color: white;
-  padding-top: 8%;
-}
-#search {
-  width: 100%;
-  height: 600px;
-  background: url('../img/asfalt.png');
-  border-bottom: solid white 1px;
-  z-index: 1;
-}
-#search #insearch {
-  width: 50%;
-  height: 30px;
-  background-color: #ffffff;
-  border: none;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  margin-top: 5%;
-  color: #c84a4a;
-  margin-left: 20%;
-  padding-left: 20px;
-  margin-right: 5%;
-}
-#search .desc h1 {
-  color: #C0C0C0;
-  text-align: center;
-  margin-top: 70px;
-  font-family: 'MuseoSans100';
-  font-size: 1.5em;
-}
-#search .containsearch {
-  width: 100%;
-  height: 200px;
-  border-left: solid #818181 1px;
-  margin-top: 70px;
-  font-family: 'MuseoSans100';
-}
-#search .containsearch h1 {
-  font-size: 1.2em;
-  margin-left: 20px;
-  color: #C0C0C0;
-}
-#search .containsearch h2 {
-  color: #818181;
-  margin-left: 20px;
-  margin-top: 20px;
-  font-size: 1em;
-}
-#videos {
-  width: 100%;
-  height: 900px;
-  background-color: #000000;
-  border-bottom: solid white 1px;
-}
-#videos #trait {
-  width: 100%;
-  height: 100%;
-  border-bottom: solid white 1px;
-  padding-top: 80px;
-}
-#videos #containtitre h1 {
-  font-family: 'MuseoSans100';
-  color: white;
-  text-align: center;
-  padding-top: 65px;
-  font-size: 2em;
-}
-#videos .containvid {
-  margin-top: 90px;
-}
-#videos .containvid h1 {
-  color: #C0C0C0;
-  font-family: 'MuseoSans100';
-  font-size: 1.2em;
-  margin-top: 10px;
-}
-#videos .containvid h2 {
-  font-family: 'MuseoSans100';
-  margin-top: 10px;
-}
-#popularvid {
-  width: 100%;
-  height: 900px;
-  background: url('../img/asfalt.png');
-  border-bottom: solid white 1px;
-}
-#popularvid #trait {
-  width: 100%;
-  height: 100%;
-  border-bottom: solid white 1px;
-  padding-top: 80px;
-}
-#popularvid #containtitre h1 {
-  font-family: 'MuseoSans100';
-  color: white;
-  text-align: center;
-  padding-top: 65px;
-  font-size: 2em;
-}
-#popularvid .containvid {
-  margin-top: 90px;
-}
-#popularvid .containvid h1 {
-  color: #C0C0C0;
-  font-family: 'MuseoSans100';
-  font-size: 1.2em;
-  margin-top: 10px;
-}
-#popularvid .containvid h2 {
-  font-family: 'MuseoSans100';
-  margin-top: 10px;
-}
-#othercategories {
-  width: 100%;
-  height: 700px;
-  background-color: #000000;
-  border-bottom: solid white 1px;
-}
-#othercategories #trait {
-  width: 100%;
-  height: 100%;
-  border-bottom: solid white 1px;
-  padding-top: 80px;
-}
-#othercategories #containtitre h1 {
-  font-family: 'MuseoSans100';
-  color: white;
-  text-align: center;
-  padding-top: 65px;
-  font-size: 2em;
-}
-#othercategories #imgallcat {
-  padding-top: 100px;
-}
-#phrases {
-  width: 100%;
-  height: 600px;
-  background: url('../img/asfalt.png');
-  border-bottom: solid white 1px;
-}
-#phrases .textphrases {
-  width: 85%;
-  height: 150px;
-  margin-top: 13%;
-}
-#phrases .textphrases h1 {
-  font-size: 2em;
-  color: white;
-  font-family: 'ChaparralProRegular';
-  letter-spacing: 3px;
-}
-#phrases .textphrases p {
-  font-size: 1.2em;
-  line-height: 30px;
-  color: white;
-  padding-top: 20px;
-  font-family: 'MuseoSans100';
-}
-#faith {
-  width: 100%;
-  height: 600px;
-  background-color: #000000;
-  border-bottom: solid white 1px;
-}
-#faith #trait {
-  width: 100%;
-  height: 100%;
-  border-bottom: solid white 1px;
-  padding-top: 80px;
-}
-#faith #containtitre h1 {
-  font-family: 'MuseoSans100';
-  color: white;
-  text-align: center;
-  padding-top: 65px;
-  font-size: 2em;
-}
-#faith .padd {
-  margin-top: 100px;
-}
-#faith .padd img {
-  float: left;
-  width: 100%;
-  height: 250px;
-}
-#faith .padd .containnom {
-  width: 92.5%;
-  height: 18%;
-  position: absolute;
-  background-color: #c84a4a;
-  margin-top: 53%;
-}
-#faith .padd .containnom h1 {
-  text-align: center;
-  font-family: 'MuseoSans100';
-  color: white;
-  font-size: 1.5em;
-  margin-top: 2%;
+  padding-top: 10%;
 }
 
+#play{
+	background: #000;
+}
+
+#play .informations {
+  padding-bottom: 45px;
+}
+#play .informations h1 {
+  font-family: 'MuseoSans100';
+  padding-top: 46px;
+  font-size: 1.4em;
+  color: white;
+}
+#play .informations h2 {
+  font-family: 'MuseoSans100';
+  color: white;
+  padding-top: 5px;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+#play .informations #twitterfb {
+  padding-top: 16px;
+  border-bottom: solid white 1px;
+}
+#play .player {
+  padding-bottom: 45px;
+  border-bottom: solid white 1px;
+}
+#play .player h1 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-size: 1.4em;
+  color: white;
+  font-family: 'MuseoSans100';
+}
+#play .player p {
+  text-align: justify;
+  font-family: 'MuseoSans100';
+  font-size: 22px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+#trainer{
+	background-color: #000;
+}
+#trainer .train {
+  height: 230px;
+  border-bottom: solid white 1px;
+}
+#trainer .train img {
+  margin-top: 20px;
+  border-radius: 100%;
+}
+#trainer .train .trainer-presentation {
+  width: 230px;
+  position: absolute;
+}
+#trainer .train .extrain {
+  width: 490px;
+  position: relative;
+  float: right;
+}
+#trainer .train .extrain h1 {
+  padding-top: 45px;
+  padding-bottom: 10px;
+  font-size: 1.4em;
+  color: white;
+  font-family: 'MuseoSans100';
+}
+#trainer .train .extrain h2 {
+  color: white;
+  padding-top: 5px;
+  font-size: 1.3em;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-family: 'MuseoSans100';
+}
+#trainer .train .extrain p {
+  color: white;
+  padding-top: 5px;
+  font-size: 1.3em;
+  margin-top: 20px;
+  font-family: 'MuseoSans100';
+}
+#questions {
+  border-bottom: solid white 1px;
+  padding-bottom: 45px;
+  position: relative;
+  background-color: #000;
+}
+#questions #btnq {
+  width: 355px;
+  height: 47px;
+  background-color: #c84a4a;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+#questions #btnq h1 {
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+  padding-top: 12px;
+  font-family: 'MuseoSans100';
+}
+#questions img {
+  position: relative;
+}
+#questions h2 {
+  font-size: 1.4em;
+  padding-bottom: 20px;
+  color: white;
+  position: relative;
+  margin-top: -26px;
+  margin-left: 30px;
+  font-family: 'MuseoSans100';
+}
+#questions #btnq2 {
+  width: 483px;
+  height: 57px;
+  background-color: #666666;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+#questions #btnq2 h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  padding-top: 15px;
+  font-family: 'MuseoSans100';
+}
+#others {
+  padding-bottom: 30px;
+  background-color: #000;
+}
+#others img {
+  margin-left: 10%;
+}
+#others h1 {
+  color: white;
+  font-family: 'ChaparralProRegular';
+  font-size: 1.4em;
+  margin-top: 10px;
+}
+#others h2 {
+  margin-left: 10%;
+  color: white;
+  font-family: 'ChaparralProRegular';
+  font-size: 1.2em;
+  margin-top: 6px;
+  font-family: 'MuseoSans100';
+}
+#others p {
+  margin-left: 10%;
+  font-family: 'MuseoSans100';
+}
+#others .othersvid h1 {
+  color: #C0C0C0;
+  font-family: 'OptimusPrincepsSemiBold';
+  font-size: 1.6em;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+#points {
+  text-align: center;
+  padding-top: 32px;
+  margin-left: 10%;
+}
 footer {
   width: 100%;
   border-top: solid 1px white;
@@ -416,16 +482,13 @@ footer h1 {
   color: #C0C0C0;
   padding-bottom: 30px;
   font-size: 1.4em;
-  font-family: 'MuseoSans100';
 }
 footer h2 {
-  font-family: 'MuseoSans100';
   font-size: 1.2em;
   color: #C0C0C0;
   padding-top: 5px;
   text-align: center;
 }
-
 /* FONTS */
 @font-face {
   font-family: 'MuseoSans100';

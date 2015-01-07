@@ -8,24 +8,11 @@
 </head>
 <body>
 
+<?php include('header.php'); ?>
+		
 	<section id="slider">
 		
-		<header>
-			
-			<img id="logo" src="img/logomagic.png" alt="logo">
 
-				<nav>
-					<ul>
-						<li><h1>CATEGORIES</h1></li>
-						<li><h1>ABOUT</h1></li>
-						<li><h1>CART</h1></li>
-						<li>
-							<div  id="login"><h1>ACCOUNT / LOG IN</h1></div>
-						</li>
-					</ul>
-				</nav>
-						
-		</header>
 				<div id="text">
 					<h1>YOUR N°1 SOURCE</br> FOR MAGIC </br> TUTORIALS</h1>
 				</div>
@@ -66,35 +53,34 @@
 					<div class="containsearch">
 						<h1>Performance Style</h1>
 						<h2>Card Magic</h2>
-						<h2>Card Magic</h2>
-						<h2>Card Magic</h2>
-
+						<h2>Close-up magic</h2>
+						<h2>Mentalism</h2>
+						<h2>Parlor magic</h2>
+						<h2>Money magic</h2>
+						<h2>Magic Theory</h2>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="containsearch">
-						<h1>Props & Accesories</h1>
-						<h2>Card Magic</h2>
-						<h2>Card Magic</h2>
-						<h2>Card Magic</h2>
-						
+						<h1>Props & Accessories</h1>
+						<h2>Playing cards</h2>
+						<h2>Phoenix decks</h2>
+						<h2>Coin gimmicks</h2>
+						<h2>Prop Store</h2>
+						<h2>Custom close-up pads</h2>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="containsearch">
-						<h1>Browse by Product Style</h1>
-						<h2>Card Magic</h2>
-						<h2>Card Magic</h2>
+						<h1>Browse by product type</h1>
+						<h2>All magic books</h2>
+						<h2>All magic DVDs</h2>
+						<h2>Magic magazine</h2>
+						<h2>All products</h2>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		
-		<div id="browsecat">
-			<h1>Browse all categories</h1>
-		</div>
-
 	</section>
 
 	<section id="videos">
@@ -123,17 +109,18 @@
 		<div class="container containvid">
 			<div class="row">
 				<div class="col-md-4">
+					<a href="video.php">
 					<div class="jm-item second"> <!-- HOVER VIDEO COMME SUR LES - AUTRES DESSOUS -->
 						<div class="jm-item-wrapper"> <!-- HOVER VIDEO -->
 							<div class="jm-item-image"> <!-- HOVER VIDEO -->
-								<img src="img/image1.jpg" alt="videocartes">
-								<div class="jm-item-description"> <!-- HOVER VIDEO -->
-								    <div class="jm-item-button"><a href="#">View</a></div> <!-- HOVER VIDEO -->
+								<a href="video.php"><img src="img/image1.jpg" alt="videocartes"></a>								<div class="jm-item-description"> <!-- HOVER VIDEO -->
+								    <div class="jm-item-button"><a href="video.php">View</a></div> <!-- HOVER VIDEO -->
 								</div> <!-- HOVER VIDEO -->
 							</div> <!-- HOVER VIDEO -->
 						</div> <!-- HOVER VIDEO -->
 					</div> <!-- HOVER VIDEO -->
-					<h1>Learn the best four ace trick</h1>
+					</a>
+					<h1><a href="video.php">Learn the best four ace trick</a></h1>
 					<h2>Length: 3:57</h2>
 				</div>
 				<div class="col-md-4">
@@ -212,11 +199,6 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="allvideos">
-			<h1>WATCH ALL VIDEO</h1>
-		</div>
-
 	</section>
 
 	<section id="popularvid">
@@ -334,11 +316,6 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="allvideos">
-			<h1>WATCH ALL VIDEO</h1>
-		</div>
-
 	</section>
 
 	<section id="othercategories">
@@ -449,26 +426,8 @@
 		</div>
 
 	</section>
-
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h1>Conditions légales</h1>
-
-				</div>
-				<div class="col-md-4">
-					<h1>Contact</h1>
-				</div>
-				<div class="col-md-4">
-					<h1>Help</h1>
-					<h2>FAQ</h2>
-				</div>
-			</div>
-		</div>
-
-	</footer>
 	
+	<?php include('footer.php'); ?>
 
 	<script src="js/bootstrap.min.js"></script>
 </body>
