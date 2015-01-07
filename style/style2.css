@@ -6,7 +6,11 @@ li {
 	  -----------------*/
 body {
   width: 100%;
+<<<<<<< HEAD
   background: url(../img/wallpaper.png) no-repeat center fixed;
+=======
+  background: url(../images/wallpaper.png) no-repeat center fixed;
+>>>>>>> ba2b841541cd11933782ba82ccc55fe7b1c48ccb
   -webkit-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
@@ -23,17 +27,29 @@ div.gauche {
   height: 532px;
   width: 557px;
   float: left;
+<<<<<<< HEAD
   margin-top: 50px;
   margin-right: 536px;
+=======
+  margin-top: 100px;
+  margin-right: 536px;
+  margin-left: 100px;
+>>>>>>> ba2b841541cd11933782ba82ccc55fe7b1c48ccb
   text-align: center;
 }
 div.gauche .img-responsive {
   margin-left: 100px;
 }
+<<<<<<< HEAD
 div.gauche .menu {
 	  margin-top:40px;
 }
 
+=======
+div.gauche div.menu {
+  margin-top: 50px;
+}
+>>>>>>> ba2b841541cd11933782ba82ccc55fe7b1c48ccb
 div.gauche div.menu a {
   margin-right: 25px;
 }
@@ -41,6 +57,7 @@ div.gauche h1 {
   font-family: OptimusPrincepsSemiBold;
   font-size: 37px;
   color: white;
+<<<<<<< HEAD
   margin-top: 80px;
 }
 div.gauche a.btn {
@@ -52,12 +69,28 @@ div.gauche a.btn {
   height: 60px;
   text-align: center;
   margin-top: 45px;
+=======
+  margin-top: 160px;
+}
+div.gauche a.btn {
+  font-size: 23px;
+  color: black;
+  margin-top: 75px;
+  width: 345px;
+  height: 60px;
+  text-align: center;
+>>>>>>> ba2b841541cd11933782ba82ccc55fe7b1c48ccb
 }
 div.droite {
   height: 700px;
   width: 400px;
   float: left;
+<<<<<<< HEAD
   margin-top: 50px;
+=======
+  margin-top: 100px;
+  margin-left: 75px;
+>>>>>>> ba2b841541cd11933782ba82ccc55fe7b1c48ccb
 }
 div.droite input[type=checkbox] {
   border-radius: 8px;

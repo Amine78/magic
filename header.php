@@ -10,7 +10,11 @@
 		
 		<header>
 			
+<<<<<<< HEAD
 			<a href="home.php"><img id="logo" src="img/logomagic.png" alt="logo"></a>
+=======
+			<img id="logo" src="img/logomagic.png" alt="logo">
+>>>>>>> ba2b841541cd11933782ba82ccc55fe7b1c48ccb
 
 				<nav>
 					<ul>
